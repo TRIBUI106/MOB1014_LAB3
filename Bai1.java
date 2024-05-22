@@ -9,9 +9,10 @@ public class Bai1 {
         int n = sc.nextInt();
 
         boolean work = true;
-        for(int i = 2; i < n; i++)
+        for(int i = 2; i < n-1; i++)
         {
             if ( n % i == 0 ) {
+                System.out.println("Chia hết cho "+i)
                 work = false;
                 break;
             }
